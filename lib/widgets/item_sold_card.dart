@@ -1,17 +1,15 @@
 import 'package:brownie_app/classes/product.dart';
 import 'package:flutter/material.dart';
 
-class ItemSoldCard extends StatelessWidget {
+class ItemSoldCardWidget extends StatelessWidget {
   final Product product;
   final int quantity;
-  final int initialNumberOfItems;
   final String image;
 
-  const ItemSoldCard({
+  const ItemSoldCardWidget({
     super.key,
     required this.product,
     required this.quantity,
-    required this.initialNumberOfItems,
     required this.image,
   });
 
@@ -42,7 +40,10 @@ class ItemSoldCard extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          Text("$quantity / $initialNumberOfItems"),
+                          Text(
+                            "$quantity",
+                            style: TextStyle(color: Colors.green),
+                          ),
                           // Text(
                           // "R\$${produc * quantity} = ${product.sellingPrice} = ${product.productionCost}"),
                         ],

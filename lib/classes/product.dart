@@ -1,13 +1,17 @@
 class Product {
   final String name;
-  late double sellingPrice;
+  double sellingPrice;
   List<String> ingredients;
+  late DateTime date;
+  String image;
 
   Product({
     required this.name,
     required this.sellingPrice,
     required this.ingredients,
+    date,
+    required this.image,
   }) {
-    sellingPrice = 7;
+    this.date = date ?? DateTime.now();
   }
 }
