@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8377448931",
+    "project_id": "brownie-app-c3970",
+    "storage_bucket": "brownie-app-c3970.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8377448931:android:67c6a9f2de1c84418508d6",
+        "android_client_info": {
+          "package_name": "brownies.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzsX9oyMgxF6rS5-53hgkSt2QStCYNQRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

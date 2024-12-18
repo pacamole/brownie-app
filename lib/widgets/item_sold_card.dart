@@ -42,7 +42,7 @@ class ItemSoldCardWidget extends StatelessWidget {
                         children: [
                           Text(
                             "$quantity",
-                            style: TextStyle(color: Colors.green),
+                            style: const TextStyle(color: Colors.green),
                           ),
                           // Text(
                           // "R\$${produc * quantity} = ${product.sellingPrice} = ${product.productionCost}"),
